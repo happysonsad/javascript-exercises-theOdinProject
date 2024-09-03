@@ -13,6 +13,6 @@ const findTheOldest = function (people) {
         return oldestPerson > nextPerson ? oldest : currentPerson;
     });
 };
-// npm test findTheOldest.spec.js
+
 // Do not edit below this line
 module.exports = findTheOldest;
